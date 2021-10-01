@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(183, 231, 235);
+}
+.heading
+{
+    font-size: 25px;
+    border-radius: 50px;
+    letter-spacing: 10px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+#one{
+    margin-top: 35px;
+}
+
+#show_1,#show_2
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+label{
+    font-size: 15px;
+}

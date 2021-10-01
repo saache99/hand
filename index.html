@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Hand Pose</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+<h3 class="btn btn-warning heading">Here Hand Pose to emoji 
+    <br>
+    <span>&#9757;</span>
+    <span>&#128071;</span>
+    <span>&#128075;</span>
+</h3>
+<br><br>
+<p id="imformation" style="font-size: 25px; ">Take selfie to Find Which Pose?
+<br>
+<b id="u"><span>&#9757;</span></b> |
+<b id="d"><span>&#128071;</span></b> |
+<b id="c"><span>&#128075;</span></b> 
+</p>
+<div id="one" class="col-md-4 col-sm-12 col-xs-12">
+    <label>Camera View</label>
+    <div id="camera"></div>
+    <br><br>
+    <button class="btn btn-waring" onclick="take()">Take It</button>
+</div>
+<br>
+<br>
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Perdiction 1</label>
+    <p id="show_3"></p>
+    <br><br>
+    <label>Perdiction 2</label>
+    <p id="show_4"></p>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Selfi View</label>
+    <div id="result"></div>
+    <br><br>
+    <button class="btn btn-success" onclick="show()">Result</button>
+</div>
+</center>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
